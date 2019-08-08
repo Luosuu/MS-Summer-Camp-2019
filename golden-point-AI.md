@@ -23,7 +23,7 @@
 夏令营中使用的工具是不限的。这里列举一些常用的。
 
 1. ML.NET
-   * 使用C#，本意是为了C#开发者可以方便的学习和使用机器学习模型，可以在三大主流平台使用，Windows可以在Visual Studio中安装，有官方教程。
+   * 使用C#，为.NET开发者构建，本意是为了C#开发者可以方便的学习和使用机器学习模型，可以在三大主流平台使用，Windows可以在Visual Studio中安装，有官方教程。
    * 内置了很多模型，并按照用处分类，可以按照分类方便的测试内置的模型并且排名，选择较高效率的模型直接生成代码。甚至有Auto ML功能，可以方便的处理数据。可以应对小型的场景化开发。
 2. Azure AI
    * 可以在Visual Studio和Visual Studio Code中安装相关插件，提供认知和训练服务。需要有Azure账号并且有订阅。国内世纪互联的订阅疑似在VSC上识别不到。国外的订阅需要VISA信用卡。
@@ -35,3 +35,14 @@
 
 1. 先看懂示例bot的代码，顺带着学必要的Python。
 2. 跟着教程用懂ML.NET和Azure AI，学着使用VS和VSC上的插件。
+
+这里不得不吐槽一下，Visual studio tools for ai只有2017和2015的拓展包，目前还不支持2019，但是想要使用Azure的服务Visual studio tools for ai是很方便的。
+
+而ML.NET对2019的支持很好，很方便，VS2019对Azure部分也有很多更新。
+
+现观察来看，先使用 `Visual Studio 2017 15.9.14`是两方都支持的选择。
+
+ML.NET是给.NET开发者使用的，如果你是.NET开发者，熟悉C#，那么ML.NET是你很好的选择。
+
+[ML.NET的入手教程](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro)
+
