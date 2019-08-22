@@ -111,7 +111,7 @@ StackPanel能按照一定的方向排列组件。排列的方向由属性"Orient
 
 使用了NavigationView自然要进行页面跳转。页面跳转的实现部分要放在`MianPage.xaml.cs`中实现。
 
-页面跳转有两种方法，一个是`ItemInvoked`，另外一个是`SelectionChanged`。前者只要发生NavigationView的item点击事件就会被检测到，后者只有当选择的item发生变化时才会发生。下面展示一个使用`ItemInvoked`的页面跳转的实现。
+页面跳转有两种方法，一个是`ItemInvoked`，另外一个是`SelectionChanged`。前者只要发生NavigationView的item点击事件就会被检测到，后者只有当选择的item发生变化时才会发生。下面展示一个使用`ItemInvoked`的页面跳转的实现。所以你需要新建`Blank page`项目，修改.xaml.cs中的类的名称。
 
 ```C#
  private void NvSample_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
