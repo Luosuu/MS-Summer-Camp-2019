@@ -12,7 +12,11 @@
 
 首先新建UWP项目。
 
+![NewProject](assets/Snipaste_2019-08-19_16-53-09.png)
+
 然后你会看到`App.xaml`和`MainPage.xaml`，前面的不用管。后面的就是我们的主页面。
+
+![InitialProject](https://github.com/Luosuu/MS-Summer-Camp-2019/blob/master/assets/Snipaste_2019-08-19_17-00-42.png)
 
 xaml文件类似于HTML文件，熟悉HTML的同学很快就能上手。
 
